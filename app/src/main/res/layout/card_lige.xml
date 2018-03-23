@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:id="@+id/ime_lige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="3dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"/>
+
+        <TextView
+            android:id="@+id/ski_lige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="3dp"
+            android:layout_below="@id/ime_lige"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"/>
+
+        <ImageButton
+            android:id="@+id/prikazi_timove"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_prikazi_sve"
+            android:layout_below="@id/ski_lige"
+            android:layout_margin="10dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

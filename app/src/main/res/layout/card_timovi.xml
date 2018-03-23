@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="10dp"
+        android:background="@color/colorAccent">
+
+        <ImageView
+            android:id="@+id/grb_tima"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="25dp" />
+
+
+        <TextView
+            android:id="@+id/ime_tima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/grb_tima"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/code_tima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/grb_tima"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/ime_tima"
+            android:textSize="20sp"
+            android:padding="3dp"/>
+
+        <TextView
+            android:id="@+id/kratko_ime_tima"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/grb_tima"
+            android:layout_marginTop="25dp"
+            android:layout_below="@id/code_tima"
+            android:textSize="20sp"
+            android:padding="3dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
